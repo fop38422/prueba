@@ -1,0 +1,33 @@
+
+
+#caja {
+    height: 500px;
+    width: 200px;
+    background-color: grey;
+    border-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+    background: linear-gradient(145deg, #aeaeae, #5f5f5f);
+    box-shadow:  5px 5px 10px #5a5a5a;
+}
+
+.luz {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  5px 5px 10px #5a5a5a;
+}
+
+#rojo {
+    background: red;
+}
+#ambar {
+    background: yellow;
+}
+#verde {
+    background: green;
+}
